@@ -7,7 +7,7 @@ export async function getMailClient() {
     secure: false, // true for 465, false for other ports
     auth: {
       user: 'apikey',
-      pass: process.env.SENDGRID_API_KEY || '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',
+      pass: process.env.SENDGRID_API_KEY
     },
   })
 
